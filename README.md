@@ -1,6 +1,6 @@
 # BCFM Case
 
-Basit bir Flask API case projesi.
+
 
 ## Endpointler
 
