@@ -6,7 +6,7 @@
 
 - `GET /` -> `{"msg":"BCFM"}`
 - `GET /health` -> `{"status":"healthy"}`
-- `POST /post` -> Body'den gelen `key` ve `value` alanlarini geri doner
+- `POST /post` -> Body'den gelen `key` ve `value` body'ye geri döndürülür.
 
 ## Goruntuler
 
@@ -18,7 +18,7 @@
 
 ![Health endpoint](assets/images/health-endpoint.svg)
 
-## Lokal Calistirma
+## Lokal Çalıştırma
 
 ```bash
 python3 -m venv .venv
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Uygulama varsayilan olarak `8093` portunda calisir.
+Uygulama varsayılan olarak `8093` portunda calışır.
 
 ## Docker
 
@@ -35,7 +35,7 @@ Uygulama varsayilan olarak `8093` portunda calisir.
 docker compose up -d --build
 ```
 
-## Test Ornekleri
+## Test Örnekleri
 
 ```bash
 curl http://localhost:8093/
