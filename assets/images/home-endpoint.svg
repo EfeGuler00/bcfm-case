@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="571" height="248" viewBox="0 0 571 248">
+  <rect width="571" height="248" fill="#0b0b0b"/>
+  <rect x="0" y="0" width="571" height="34" fill="#f4f4f4"/>
+  <text x="460" y="22" fill="#111111" font-family="Menlo, Monaco, monospace" font-size="13">localhost:8093</text>
+  <text x="10" y="22" fill="#111111" font-family="Menlo, Monaco, monospace" font-size="13">Goruntulu hale getir</text>
+  <text x="8" y="90" fill="#f4f4f4" font-family="Menlo, Monaco, monospace" font-size="30">{&quot;msg&quot;:&quot;BCFM&quot;}</text>
+</svg>
+
