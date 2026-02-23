@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: bcfm-app
-        image: efeguler00/bcfmcase:latest
+        image: 773182953673.dkr.ecr.eu-central-1.amazonaws.com/bcfmcase:latest
         ports:
         - containerPort: 8093
 

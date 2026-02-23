@@ -1,0 +1,7 @@
+services:
+  bcfm-case:
+    build: .
+    container_name: bcfm-case
+    restart: unless-stopped
+    ports:
+      - "8093:8093"
